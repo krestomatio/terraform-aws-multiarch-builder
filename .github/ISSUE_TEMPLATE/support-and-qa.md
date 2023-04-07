@@ -20,9 +20,3 @@ assignees: ''
 * AWS CLI version:
 * Terraform version:
 * Module version:
-
-If possible please run the following on the kubernetes or OpenShift (oc) commands and provide the result:
- kubectl describe yourPodName
- kubectl describe pvc
- kubectl get nodes
- kubectl log yourPodName
