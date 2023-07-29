@@ -27,6 +27,7 @@ locals {
     echo "about to set up buildx node 'multiarch-builder-amd64'..."
     docker buildx create --use --bootstrap --append --name multiarch-builder \
         --driver docker-container \
+        --driver-opt="network=host" \
         --platform linux/amd64 \
         --node=multiarch-builder-amd64 \
         multiarch-builder-amd64
@@ -60,6 +61,7 @@ locals {
     echo "about to set up buildx node 'multiarch-builder-arm64'..."
     docker buildx create --use --bootstrap --append --name multiarch-builder \
         --driver docker-container \
+        --driver-opt="network=host" \
         --platform linux/arm64 \
         --node=multiarch-builder-arm64 \
         multiarch-builder-arm64
