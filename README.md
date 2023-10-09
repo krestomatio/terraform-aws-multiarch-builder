@@ -7,6 +7,7 @@ The following are the dependencies to make use of the remote ephemeral builders,
 * [docker](https://docs.docker.com/engine/install/)
 * [buildx](https://github.com/docker/buildx)
 
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -84,3 +85,7 @@ No modules.
 | <a name="output_client_key"></a> [client\_key](#output\_client\_key) | The client private key |
 | <a name="output_docker_host_amd64"></a> [docker\_host\_amd64](#output\_docker\_host\_amd64) | Docker host (TLS) for amd64 instance |
 | <a name="output_docker_host_arm64"></a> [docker\_host\_arm64](#output\_docker\_host\_arm64) | Docker host (TLS) for arm64 instance |
+<!-- END_TF_DOCS -->
+
+## [About Krestomatio](https://krestomatio.com/about)
+[Krestomatio is a managed service for Moodle™ e-learning platforms](https://krestomatio.com/). It allows you to have open-source instances managed by a service optimized for Moodle™, complete with an additional plugin pack and customization options.
